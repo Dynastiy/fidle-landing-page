@@ -45,7 +45,7 @@ export default {
     };
   },
   created() {
-    var deadline = new Date("Jan 5, 2023 15:37:25").getTime();
+    var deadline = new Date("May 28, 2022 1:00:00").getTime();
     var x = setInterval(function () {
       var now = new Date().getTime();
       var t = deadline - now;
